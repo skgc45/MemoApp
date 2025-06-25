@@ -11,7 +11,7 @@ import Button from "../../components/Button";
 
 const handlePress = (): void => {
   // login
-  router.push("/memo/list");
+  router.replace("/memo/list");
 };
 
 const LogIn = () => {
